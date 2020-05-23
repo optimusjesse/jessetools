@@ -1,0 +1,13 @@
+{
+  "name": "jessetools",
+  "version": "1.0.0",
+  "description": "Wrapper around a bunch of common tasks I find myself doing often",
+  "main": "index.js",
+  "scripts": {},
+  "author": "optimusjesse",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "mongoose": "^5.9.15"
+  }
+}
