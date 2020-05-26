@@ -6,6 +6,7 @@ function connectMongo(url, callback) {
   const mgConnectOptions = {
     useNewUrlParser: true,
     useCreateIndex: true,
+    useUnifiedTopology: true,
     useFindAndModify: false,
   };
   mg.connect(url, mgConnectOptions);
